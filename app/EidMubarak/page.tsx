@@ -1,4 +1,8 @@
-import { Star } from "lucide-react";
+"use client";
+
+import { Star, Gift, X } from "lucide-react";
+import { useState } from "react";
+import { SalamiForm } from "../components/SalamiForm";
 
 const Crescent = ({ className }: { className?: string }) => (
   <svg viewBox="0 0 24 24" fill="currentColor" className={className}>
@@ -19,6 +23,8 @@ const Lantern = ({ className }: { className?: string }) => (
 );
 
 export default function Eid() {
+  const [showForm, setShowForm] = useState(false);
+
   return (
     <div className="pt-[72px] bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 min-h-screen relative overflow-hidden flex flex-col justify-between transition-colors duration-300">
 
@@ -100,7 +106,32 @@ export default function Eid() {
             <div className="font-sans text-[10px] font-semibold tracking-[0.14em] uppercase text-slate-500 dark:text-slate-50/45 transition-colors duration-300">Celebration</div>
           </div>
         </div>
+
+        <div className="mt-16 reveal d5 in">
+          <button 
+            onClick={() => setShowForm(true)}
+            className="group flex items-center gap-3 font-sans text-xs font-bold tracking-[0.2em] uppercase bg-brand-500 text-white px-10 py-5 rounded-[2px] hover:bg-brand-600 transition-all shadow-xl shadow-brand-500/20 active:scale-95 hover-trigger"
+          >
+            <Gift size={18} className="group-hover:rotate-12 transition-transform" />
+            Get Salami
+          </button>
+        </div>
       </div>
+
+      {/* Salami Form Overlay */}
+      {showForm && (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center p-6 bg-slate-950/40 backdrop-blur-md animate-fade-in">
+          <div className="relative w-full max-w-lg bg-white/80 dark:bg-slate-900/80 border border-white/20 dark:border-white/10 p-8 md:p-12 rounded-[2px] shadow-2xl transition-all overflow-hidden cursor-auto">
+            <button 
+              onClick={() => setShowForm(false)}
+              className="absolute top-6 right-6 text-slate-400 hover:text-slate-900 dark:hover:text-slate-50 transition-colors"
+            >
+              <X size={24} />
+            </button>
+            <SalamiForm onClose={() => setShowForm(false)} />
+          </div>
+        </div>
+      )}
 
       <div className="border-t border-[#D4A017]/20 py-10 px-6 md:px-12 max-w-7xl mx-auto w-full flex flex-col md:flex-row justify-between items-center gap-4 text-center mt-12 relative z-10 transition-colors duration-300">
         <span className="font-sans italic text-[16px] text-slate-500 dark:text-slate-50/45 transition-colors duration-300">"And He found you lost and guided you." — Quran 93:7</span>
