@@ -21,7 +21,7 @@ const Lantern = ({ className }: { className?: string }) => (
 export default function Eid() {
   return (
     <div className="pt-[72px] bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 min-h-screen relative overflow-hidden flex flex-col justify-between transition-colors duration-300">
-      
+
       {/* Background Ornaments / Floating Arabian Elements */}
       <div className="absolute inset-0 pointer-events-none z-0 overflow-hidden">
         {/* Central Rings */}
@@ -63,25 +63,25 @@ export default function Eid() {
 
       <div className="flex-grow flex flex-col items-center justify-center text-center px-6 md:px-12 py-20 relative z-10">
         <p className="font-sans text-[11px] font-semibold tracking-[0.24em] uppercase text-[#D4A017] mb-8 reveal in">
-          ✦ A Special Message ✦
+          ✦ Eid Ul Fitr ✦
         </p>
 
         <h1 className="font-sans text-[clamp(52px,9vw,120px)] font-light leading-none text-slate-900 dark:text-slate-50 mb-2 reveal d1 in transition-colors duration-300">
           Eid<br /><em className="italic text-[#D4A017] drop-shadow-sm">Mubarak</em>
         </h1>
-        
+
         <p className="font-sans text-[clamp(18px,3vw,28px)] font-bold tracking-[0.2em] text-slate-400 dark:text-slate-50/40 mb-10 reveal d2 in transition-colors duration-300">
           2026
         </p>
 
         <p className="font-sans text-[clamp(16px,2vw,22px)] font-light italic text-slate-600 dark:text-slate-50/75 leading-relaxed max-w-[560px] mb-4 reveal d3 in transition-colors duration-300">
-          May this blessed occasion bring peace, joy, and boundless 
-          blessings to you and your loved ones. 
+          May this blessed occasion bring peace, joy, and boundless
+          blessings to you and your loved ones.
           Wishing you a celebration filled with warmth and gratitude.
         </p>
 
         <p className="font-sans text-[13px] font-medium tracking-[0.08em] text-[#D4A017] mb-14 reveal d4 in">
-          Keep him in your prayers ✨
+          Keep me in your prayers ✨
         </p>
 
         <div className="w-[1px] h-16 bg-gradient-to-b from-[#D4A017] to-transparent mb-14 reveal d4 in"></div>
