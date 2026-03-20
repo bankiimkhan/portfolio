@@ -92,18 +92,18 @@ export default function Eid() {
 
         <div className="w-[1px] h-16 bg-gradient-to-b from-[#D4A017] to-transparent mb-14 reveal d4 in"></div>
 
-        <div className="flex flex-wrap justify-center gap-4 md:gap-6 reveal d5 in">
-          <div className="bg-slate-200/50 dark:bg-white/5 border border-[#D4A017]/30 rounded-[2px] py-7 px-9 text-center min-w-[160px] backdrop-blur-sm transition-colors duration-300">
-            <div className="font-sans text-[36px] font-light text-[#D4A017] leading-none mb-1.5">30</div>
-            <div className="font-sans text-[10px] font-semibold tracking-[0.14em] uppercase text-slate-500 dark:text-slate-50/45 transition-colors duration-300">Days of Ramadan</div>
+        <div className="flex flex-wrap justify-center gap-2 md:gap-6 reveal d5 in w-full max-w-2xl mx-auto">
+          <div className="bg-slate-200/50 dark:bg-white/5 border border-[#D4A017]/30 rounded-[2px] py-6 px-3 text-center flex-1 min-w-[100px] backdrop-blur-sm transition-colors duration-300">
+            <div className="font-sans text-[24px] md:text-[36px] font-light text-[#D4A017] leading-none mb-1.5">30</div>
+            <div className="font-sans text-[8px] md:text-[9px] font-semibold tracking-[0.14em] uppercase text-slate-500 dark:text-slate-50/45 transition-colors duration-300">Days of Ramadan</div>
           </div>
-          <div className="bg-slate-200/50 dark:bg-white/5 border border-[#D4A017]/30 rounded-[2px] py-7 px-9 text-center min-w-[160px] backdrop-blur-sm transition-colors duration-300">
-            <div className="font-sans text-[36px] font-light text-[#D4A017] leading-none mb-1.5">∞</div>
-            <div className="font-sans text-[10px] font-semibold tracking-[0.14em] uppercase text-slate-500 dark:text-slate-50/45 transition-colors duration-300">Blessings Ahead</div>
+          <div className="bg-slate-200/50 dark:bg-white/5 border border-[#D4A017]/30 rounded-[2px] py-6 px-3 text-center flex-1 min-w-[100px] backdrop-blur-sm transition-colors duration-300">
+            <div className="font-sans text-[24px] md:text-[36px] font-light text-[#D4A017] leading-none mb-1.5">∞</div>
+            <div className="font-sans text-[8px] md:text-[9px] font-semibold tracking-[0.14em] uppercase text-slate-500 dark:text-slate-50/45 transition-colors duration-300">Blessings Ahead</div>
           </div>
-          <div className="bg-slate-200/50 dark:bg-white/5 border border-[#D4A017]/30 rounded-[2px] py-7 px-9 text-center min-w-[160px] backdrop-blur-sm transition-colors duration-300">
-            <div className="font-sans text-[36px] font-light text-[#D4A017] leading-none mb-1.5">1</div>
-            <div className="font-sans text-[10px] font-semibold tracking-[0.14em] uppercase text-slate-500 dark:text-slate-50/45 transition-colors duration-300">Celebration</div>
+          <div className="bg-slate-200/50 dark:bg-white/5 border border-[#D4A017]/30 rounded-[2px] py-6 px-3 text-center flex-1 min-w-[100px] backdrop-blur-sm transition-colors duration-300">
+            <div className="font-sans text-[24px] md:text-[36px] font-light text-[#D4A017] leading-none mb-1.5">1</div>
+            <div className="font-sans text-[8px] md:text-[9px] font-semibold tracking-[0.14em] uppercase text-slate-500 dark:text-slate-50/45 transition-colors duration-300">Celebration</div>
           </div>
         </div>
 

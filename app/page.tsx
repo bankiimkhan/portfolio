@@ -48,7 +48,7 @@ export default function Home() {
 
       {/* Disciplines Section */}
       <section className="px-6 md:px-12 py-24 bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 mt-auto transition-colors duration-300">
-        <div className="max-w-7xl mx-auto grid grid-cols-3 gap-4 md:gap-12 text-center">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 text-center">
           <Link href="/web-dev" className="group flex flex-col items-center hover-trigger pb-8 border-b-2 border-transparent hover:border-brand-500 transition-colors duration-300 reveal in">
             <MonitorSmartphone strokeWidth={1} className="w-8 h-8 text-slate-400 dark:text-slate-500 mb-4 group-hover:-translate-y-1 group-hover:text-brand-500 transition-all duration-300" />
             <h3 className="!font-sans text-[12px] md:text-[22px] font-bold uppercase tracking-wider text-slate-900 dark:text-slate-50 group-hover:text-brand-500 transition-colors">Push</h3>

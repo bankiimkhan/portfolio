@@ -20,7 +20,7 @@ export default function Navbar() {
   const isActive = (path: string) => pathname === path;
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 md:px-12 h-[72px] bg-slate-50/85 dark:bg-slate-950/85 backdrop-blur-md transition-colors duration-300 border-b ${scrolled ? 'border-slate-200 dark:border-slate-800' : 'border-transparent'}`}>
+    <nav className={`fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-4 md:px-12 h-[72px] bg-slate-50/85 dark:bg-slate-950/85 backdrop-blur-md transition-colors duration-300 border-b ${scrolled ? 'border-slate-200 dark:border-slate-800' : 'border-transparent'}`}>
       <div className="flex items-center gap-6">
         <Link href="/" className="font-sans font-bold text-base tracking-widest uppercase text-slate-900 dark:text-slate-50 decoration-none hover-trigger">
           Bankiim<span className="text-brand-500">Khan</span>
