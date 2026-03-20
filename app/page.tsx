@@ -6,7 +6,7 @@ export default function Home() {
     <div className="relative pt-[72px] min-h-screen bg-slate-50 dark:bg-slate-950 flex flex-col transition-colors duration-300">
       
       {/* Floating Background Icons */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none z-0 opacity-[0.15] dark:opacity-[0.3] transition-opacity duration-500">
+      <div className="absolute inset-0 overflow-hidden pointer-events-none z-0 opacity-[0.1] dark:opacity-[0.12] transition-opacity duration-500">
         <div className="absolute top-[15%] left-[5%] animate-float animate-delay-1000"><Code size={64} strokeWidth={1.5} /></div>
         <div className="absolute top-[25%] left-[45%] animate-blob animate-delay-2000"><Palette size={48} strokeWidth={1.5} /></div>
         <div className="absolute top-[10%] right-[10%] animate-float animate-delay-500"><Camera size={80} strokeWidth={1.5} /></div>

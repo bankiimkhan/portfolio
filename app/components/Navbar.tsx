@@ -48,8 +48,8 @@ export default function Navbar() {
           </Link>
         </li>
       </ul>
-      <Link href="/eid-2026" className="font-sans text-[11px] font-semibold tracking-[0.12em] uppercase text-brand-500 border border-brand-500 px-4 py-2 rounded-sm hover-trigger transition-all duration-200 hover:bg-brand-500 hover:text-white">
-        Eid 2026 ✦
+      <Link href="/EidMubarak" className="font-sans text-[11px] font-semibold tracking-[0.12em] uppercase text-brand-500 border border-brand-500 px-4 py-2 rounded-sm hover-trigger transition-all duration-200 hover:bg-brand-500 hover:text-white">
+        Eid Mubarak ✦
       </Link>
     </nav>
   );

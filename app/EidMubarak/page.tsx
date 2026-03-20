@@ -31,32 +31,32 @@ export default function Eid() {
 
         {/* Floating Icons */}
         {/* Top Left Crescent */}
-        <div className="absolute top-[12%] left-[10%] md:left-[15%] text-[#D4A017] opacity-60 animate-float" style={{ animationDelay: '0s' }}>
+        <div className="absolute top-[12%] left-[10%] md:left-[15%] text-[#D4A017] opacity-60 dark:opacity-20 animate-float" style={{ animationDelay: '0s' }}>
           <Crescent className="w-24 h-24 -rotate-12" />
         </div>
 
         {/* Top Right Lantern */}
-        <div className="absolute top-[15%] right-[12%] md:right-[20%] text-[#D4A017] opacity-50 animate-float" style={{ animationDelay: '1.5s' }}>
+        <div className="absolute top-[15%] right-[12%] md:right-[20%] text-[#D4A017] opacity-50 dark:opacity-15 animate-float" style={{ animationDelay: '1.5s' }}>
           <Lantern className="w-20 h-20" />
         </div>
 
         {/* Bottom Left Lantern */}
-        <div className="absolute bottom-[20%] left-[10%] md:left-[22%] text-[#D4A017] opacity-50 animate-float" style={{ animationDelay: '2.5s' }}>
+        <div className="absolute bottom-[20%] left-[10%] md:left-[22%] text-[#D4A017] opacity-50 dark:opacity-15 animate-float" style={{ animationDelay: '2.5s' }}>
           <Lantern className="w-16 h-16" />
         </div>
 
         {/* Bottom Right Star */}
-        <div className="absolute bottom-[18%] right-[8%] md:right-[18%] text-[#D4A017] opacity-40 animate-float" style={{ animationDelay: '0.8s' }}>
+        <div className="absolute bottom-[18%] right-[8%] md:right-[18%] text-[#D4A017] opacity-40 dark:opacity-10 animate-float" style={{ animationDelay: '0.8s' }}>
           <Star className="w-12 h-12" fill="currentColor" />
         </div>
 
         {/* Top Center Star */}
-        <div className="absolute top-[8%] left-[45%] md:left-[55%] text-[#D4A017] opacity-30 animate-float" style={{ animationDelay: '2.1s' }}>
+        <div className="absolute top-[8%] left-[45%] md:left-[55%] text-[#D4A017] opacity-30 dark:opacity-[0.08] animate-float" style={{ animationDelay: '2.1s' }}>
           <Star className="w-8 h-8" fill="currentColor" />
         </div>
 
         {/* Mid Left Star */}
-        <div className="absolute top-[45%] left-[5%] md:left-[10%] text-[#D4A017] opacity-30 animate-float" style={{ animationDelay: '1.2s' }}>
+        <div className="absolute top-[45%] left-[5%] md:left-[10%] text-[#D4A017] opacity-30 dark:opacity-[0.08] animate-float" style={{ animationDelay: '1.2s' }}>
           <Star className="w-10 h-10" fill="currentColor" />
         </div>
       </div>
