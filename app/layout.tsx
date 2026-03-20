@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter, Syne } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
@@ -11,6 +11,11 @@ const syne = Syne({ subsets: ["latin"], variable: "--font-syne" });
 export const metadata: Metadata = {
   title: "Bankiim Khan",
   description: "Personal portfolio of Bankiim Khan - bankiim_push, bankiim_design & Noysikee",
+};
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 0.9,
 };
 
 export default function RootLayout({
