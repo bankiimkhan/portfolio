@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 const syne = Syne({ subsets: ["latin"], variable: "--font-syne" });
 
 export const metadata: Metadata = {
-  title: "Bankiim Khan | Portfolio",
+  title: "Bankiim Khan",
   description: "Personal portfolio of Bankiim Khan - bankiim_push, bankiim_design & Noysikee",
 };
 
