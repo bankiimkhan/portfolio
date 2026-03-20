@@ -81,9 +81,15 @@ async function savePortfolioData(data: PortfolioData) {
   try {
     await fs.access(dir);
   } catch {
-    await fs.mkdir(dir, { recursive: true });
+    try {
+      await fs.mkdir(dir, { recursive: true });
+    } catch {}
   }
-  await fs.writeFile(DATA_FILE, JSON.stringify(data, null, 2), "utf-8");
+  try {
+    await fs.writeFile(DATA_FILE, JSON.stringify(data, null, 2), "utf-8");
+  } catch (err) {
+    console.warn("Could not save to local file (likely read-only hosting):", err);
+  }
 }
 
 export async function getEmbeds(category: PortfolioCategory): Promise<EmbedEntry[]> {
@@ -157,9 +163,15 @@ async function saveSalamiData(data: SalamiData) {
   try {
     await fs.access(dir);
   } catch {
-    await fs.mkdir(dir, { recursive: true });
+    try {
+      await fs.mkdir(dir, { recursive: true });
+    } catch {}
   }
-  await fs.writeFile(SALAMI_FILE, JSON.stringify(data, null, 2), "utf-8");
+  try {
+    await fs.writeFile(SALAMI_FILE, JSON.stringify(data, null, 2), "utf-8");
+  } catch (err) {
+    console.warn("Could not save to local file (likely read-only hosting):", err);
+  }
 }
 
 export async function submitSalamiRequest(formData: { 
